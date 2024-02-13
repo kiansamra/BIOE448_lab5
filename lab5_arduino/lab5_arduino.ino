@@ -20,7 +20,7 @@ void setup() {
   // pinMode(ledPin2, OUTPUT);
   Serial.begin(9600);
 
-  while(!Serial);
+  // while(!Serial);
   if (!BLE.begin()){
   Serial.println("Waiting for ArduinoBLE");
   while(1);
