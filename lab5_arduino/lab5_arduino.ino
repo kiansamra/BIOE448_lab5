@@ -27,6 +27,7 @@ void setup() {
   }
 
   BLE.setDeviceName("KianAndKate");
+  BLE.setAdvertisedServiceUuid("1234abcd1234abcd");
   BLE.setAdvertisedService(newService);
   newService.addCharacteristic(readChar);
   newService.addCharacteristic(writeChar);
