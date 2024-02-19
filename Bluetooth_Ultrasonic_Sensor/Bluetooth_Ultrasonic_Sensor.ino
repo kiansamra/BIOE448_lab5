@@ -73,23 +73,6 @@ void loop() {
             Serial.println("Distance printed to peripheral");
           }
         }
-
-        // digitalWrite(trigPin, LOW);
-        // delayMicroseconds(2);
-        // digitalWrite(trigPin, HIGH);
-        // delayMicroseconds(10);
-        // digitalWrite(trigPin, LOW);
-
-        // duration = pulseIn(echoPin, HIGH);
-        // distanceCm = duration * 0.034 / 2;
-
-        // Serial.print("Distance: ");
-        // Serial.print(distanceCm);
-        // Serial.println(" cm");
-
-        // delay(10);
-        // readChar.writeValue(distanceCm);
-        // Serial.println("Distance printed to peripheral");
       }
     }
 
